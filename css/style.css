@@ -1,0 +1,138 @@
+header {
+    grid-area: header;
+    text-align: center;
+  }
+
+a:link,
+a:visited {
+  text-decoration: none;
+  background-color: darkblue;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding: 14px 25px;
+}
+
+a:hover,
+a:active {
+  background-color: darkblue;
+}
+
+
+h1 {
+    color: darkblue;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  
+
+  h2 {
+    color: darkblue;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  
+  h3 {
+    color: darkblue;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+#introPara {
+    color: darkblue;
+  }
+  
+  #workoutPara {
+    color: darkblue;
+  }
+  
+  #healthyMeals {
+    color: darkblue;
+  }
+  
+  #authorBio {
+    color: darkblue;
+  }
+
+  #introPara {
+    grid-area: intro;
+    font-size: 18px;
+  }
+  
+  #workoutPara {
+    grid-area: workout;
+    font-size: 18px;
+  }
+  
+  #healthyMeals {
+    grid-area: nutrition;
+    font-size: 18px;
+  }
+
+#authorBio {
+    grid-area: bio;
+  }
+  
+#iconPhoto{
+      grid-area: photo;
+      font-size: 50px;
+      color: darkblue;
+  }
+  
+
+body{
+    background-color: beige;
+}
+
+p{
+    color: darkblue;
+    font-size: 15px;
+    animation: 3s infinite alternate slidein;
+}
+
+#flexgrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-areas:
+    "navigation navigation navigation navigation navigation"
+    "header header header header header "
+    "workout intro intro intro nutrition"
+    "photo bio bio bio bio"
+    "footer footer footer footer footer";
+    grid-gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+     background-color: beige;
+      }
+
+
+
+ #navstyle {
+     justify-content: space-around;
+     display: flex;
+     background-color: beige;
+     padding: 10px 10px;
+      }
+
+ #navstyle {
+    grid-area: navigation;
+    position: sticky;
+    top: 0;
+      }
+
+ a:hover,
+ a:active {
+        background-color: lightseagreen;
+      }
+
+      
+ #flexgrid > * {
+    background-color: orange;
+    border-style: solid;
+    padding: 15px;
+      }
+
+div{
+    color: white;
+}
+
+
+
