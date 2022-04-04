@@ -1,22 +1,8 @@
-header {
-    grid-area: header;
+.heading {
     text-align: center;
+    color: orange;
   }
 
-.container-fluid{
-  margin: 50px auto;
-  height: 200px;
-  background-color: azure; 
-}
-
-a:link,
-a:visited {
-  text-decoration: none;
-  color: white;
-  display: inline-block;
-  text-align: center;
-  padding: 14px 25px;
-}
 
 a:hover,
 a:active {
@@ -36,41 +22,26 @@ ul {
 }
 
 
-* {
-  box-sizing: border-box;
 
-}
-/*MOBILE SIZING*/
-[class*="col-"] {
-  width: 100%;
-}
 
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-}
-
-h1 {
+h1{
     color: orangered;
     font-family: "Roboto Condensed", sans-serif;
   }
 
 
 
-  h2 {
+h2{
     color: orangered;
     font-family: "Roboto Condensed", sans-serif;
   }
   
-  h3 {
+h3{
     color: orangered;
     font-family: "Roboto Condensed", sans-serif;
   }
 
-#introPara {
-    color: orangered;
-  }
-  
+
   #workoutPara {
     color: orangered;
   }
@@ -127,5 +98,22 @@ div{
 
 }
 
+.arraySelection{
+  color: darkblue;
+}
+/*
+.slide-panel{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -14rem;
+  width: 14rem;
+  background: darkblue;
+  color: white;
+  transition: transition 0.3s ease-out;
+}
 
-
+.slidepanel-is-open .slide-panel .site-container{
+  transform: translateX(14rem)
+}
+*/
