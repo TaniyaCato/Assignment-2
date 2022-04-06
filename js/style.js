@@ -1,5 +1,5 @@
 const heading = document.querySelector(".heading");
-heading.style.color = "orange";
+heading.style.color = "orangered";
 
 heading.style.setProperty('font-size', '4rem');
 

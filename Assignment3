@@ -138,6 +138,25 @@
       </div>
     </div>
 
+  <div class="arraySelection">
+
+  </div>
+   
+    <p class="newPara"></p>
+    <p class="jQueryPara">This is my jquery content</p>
+
+    <br><br>
+    <p class="jQueryPara2">Create a button and add a event</p>
+    <button class="jQueryButton">Click to Add Content</button>
+
+    <h4>Apex chart - Bar chart (Workouts)</h4>
+    <div id="BarChart"></div>
+
+
+    <button type="button" class="newButton"> Click Here!</button>
+
+    <h5>Refrences</h5>
+    <li><a class = "link" id = "link">https://8fit.com/fitness/different-types-of-exercise-and-why-variety-is-important/</a></li>
  
   </section>
    

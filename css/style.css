@@ -3,19 +3,24 @@ header {
     text-align: center;
   }
 
-a:link,
-a:visited {
-  text-decoration: none;
-  background-color: darkblue;
-  color: white;
-  display: inline-block;
-  text-align: center;
-  padding: 14px 25px;
+  .navbar-light .navbar-brand {
+    color: orangered;
+  }
+
+  a:link, a:visited {
+    text-decoration: none;
+    background-color: darkblue;
+    color: orange;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 25px;
 }
+
+
 
 a:hover,
 a:active {
-  background-color: darkblue;
+  background-color: white;
 }
 
 
@@ -27,29 +32,29 @@ h1 {
   
 
   h2 {
-    color: darkblue;
+    color: black;
     font-family: "Roboto Condensed", sans-serif;
   }
   
   h3 {
-    color: darkblue;
+    color: black;
     font-family: "Roboto Condensed", sans-serif;
   }
 
 #introPara {
-    color: darkblue;
+    color: black;
   }
   
   #workoutPara {
-    color: darkblue;
+    color: black;
   }
   
   #healthyMeals {
-    color: darkblue;
+    color: black;
   }
   
   #authorBio {
-    color: darkblue;
+    color: black;
   }
 
   #introPara {
@@ -74,7 +79,7 @@ h1 {
 #iconPhoto{
       grid-area: photo;
       font-size: 50px;
-      color: darkblue;
+      color: black;
   }
   
 
@@ -83,7 +88,7 @@ body{
 }
 
 p{
-    color: darkblue;
+    color: orangered;
     font-size: 15px;
     animation: 3s infinite alternate slidein;
 }
