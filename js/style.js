@@ -9,7 +9,7 @@ heading.style.setProperty('font-size', '4rem');
 //const newGetfitsSection = document.querySelector(".Getfit");
 //newGetfitsSection.style.color = 
 
-document.querySelector(".link").setAttribute("href", "https://8fit.com/fitness/different-types-of-exercise-and-why-variety-is-important/")
+//document.querySelector(".link").setAttribute("href", "https://8fit.com/fitness/different-types-of-exercise-and-why-variety-is-important/")
 
 const newPara = document.querySelector(".newPara");
 
